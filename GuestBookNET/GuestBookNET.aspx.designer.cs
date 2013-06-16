@@ -7,11 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GuestBookNET {
+
+
+
+namespace GuestBookNET 
+{
+    
+
+    
+
+    public partial class GuestbookSignPage 
+    {
     
     
-    public partial class GuestbookSignPage {
-        
         /// <summary>
         /// NameTextBox control.
         /// </summary>
@@ -65,5 +73,14 @@ namespace GuestBookNET {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ViewGuestbookButton;
+    
+    
+    
     }
+
+
+
+
 }
+
+

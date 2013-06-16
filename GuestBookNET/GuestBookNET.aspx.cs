@@ -10,18 +10,12 @@ namespace GuestBookNET
 
 
 
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
 
         protected void SubmitButtonClick(object sender, EventArgs e)
         {
 
 
-            GuestbookEntryGenerator entryGenerator
+            var entryGenerator
                 = new GuestbookEntryGenerator();
 
             entryGenerator.GenerateGuestbookEntry
@@ -36,25 +30,14 @@ namespace GuestBookNET
 
 
 
-
-        protected void ViewGuestbookButton_Click(object sender, EventArgs e)
+        protected void ViewGuestbookButtonClick
+            (object sender, EventArgs e)
         {
 
-
-
-        }
-
-
-        protected void ViewGuestbookButtonClick(object sender, EventArgs e)
-        {
-
-
-            GuestbookViewer guestbookViewer = new GuestbookViewer();
 
             Response.Redirect("GuestbookViewerForm.aspx");
 
-        
-        
+               
         }
 
 
